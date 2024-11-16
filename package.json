@@ -4,7 +4,7 @@
   "description": "Atena é uma inteligência artificial avançada projetada para transformar a experiência de pesquisa acadêmica no Portal de Periódicos da CAPES. Inspirada na deusa da sabedoria, Atena combina inovação tecnológica, inteligência artificial e automação para oferecer suporte completo a pesquisadores em todas as etapas de produção, análise e publicação de conhecimento científico.",
   "main": "dist/app.js",
   "scripts": {
-    "start": "ts-node-dev src/app.ts",
+    "start": "node --env-file=.env dist/app.js",
     "dev": "ts-node-dev --respawn --env-file=.env --transpile-only src/app.ts",
     "build": "tsc"
   },
